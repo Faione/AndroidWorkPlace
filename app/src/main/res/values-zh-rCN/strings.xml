@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My App</string>
+    <string name="inp">请输入摄氏度</string>
+    <string name="btn">转化华摄氏度</string>
+    <string name="out">等待输入</string>
+    <string name="btn1">加1分</string>
+    <string name="btn2">加2分</string>
+    <string name="btn3">加3分</string>
+    <string name="second">重置分数</string>
+</resources>

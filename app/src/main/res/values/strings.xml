@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">A</string>
+    <string name="inp">B</string>
+    <string name="btn">C</string>
+    <string name="btn1">Plus 1</string>
+    <string name="btn2">Plus 2</string>
+    <string name="btn3">Plus 3</string>
+    <string name="rlt">D</string>
+    <string name="out">E</string>
+    <string name="second">reset</string>
+    <string name="second2">Team Queen</string>
+    <string name="second3">0</string>
+    <string name="second4">Team King</string>
+</resources>
