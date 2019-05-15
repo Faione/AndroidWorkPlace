@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.temperatureconverter);
+        setContentView(R.layout.activity_main);
         out= findViewById(R.id.txtout);
         inp= findViewById(R.id.inp);
         Button btn= findViewById(R.id.btn);

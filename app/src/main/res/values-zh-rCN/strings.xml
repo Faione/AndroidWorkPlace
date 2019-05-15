@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My App</string>
+    <string name="app_name">我的程序</string>
     <string name="inp">请输入摄氏度</string>
     <string name="btn">转化华摄氏度</string>
     <string name="out">等待输入</string>
@@ -8,4 +8,11 @@
     <string name="btn2">加2分</string>
     <string name="btn3">加3分</string>
     <string name="second">重置分数</string>
+    <string name="btn_Dollar_label">美元</string>
+    <string name="btn_Pound_label">英镑</string>
+    <string name="btn_Yen_label">日元</string>
+    <string name="btn_HK_label">港币</string>
+    <string name="rmb_hint">请输入人民币金额</string>
+    <string name="btn_config">修改汇率</string>
+    <string name="btn_save">保存</string>
 </resources>

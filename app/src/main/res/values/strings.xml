@@ -1,14 +1,29 @@
 <resources>
-    <string name="app_name">A</string>
+    <string name="app_name">MY APP</string>
     <string name="inp">B</string>
     <string name="btn">C</string>
     <string name="btn1">Plus 1</string>
     <string name="btn2">Plus 2</string>
     <string name="btn3">Plus 3</string>
+    v
+    <string name="btn_trans">To Another Page</string>
     <string name="rlt">D</string>
     <string name="out">E</string>
     <string name="second">reset</string>
     <string name="second2">Team Queen</string>
     <string name="second3">0</string>
     <string name="second4">Team King</string>
+    <string name="btn_Dollar_label">Dollar</string>
+    <string name="btn_Pound_label">Pound</string>
+    <string name="btn_Yen_label">Yen</string>
+    <string name="btn_HK_label">HK</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="rmb_rlt">0</string>
+    <string name="btn_config">config</string>
+    <string name="btn_save">Save</string>
+    <string name="menu_set_lable">menu</string>
+    <string name="label_open_list">OpenList</string>
+    <string name="lable_itemTitle">itemTitle</string>
+    <string name="lable_itemDetail">itemDetail</string>
+    <string name="app_name_RateConverter">RateConverter</string>
 </resources>

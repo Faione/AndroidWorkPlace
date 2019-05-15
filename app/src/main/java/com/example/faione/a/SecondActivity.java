@@ -17,6 +17,13 @@ public class SecondActivity extends AppCompatActivity {
         score=findViewById(R.id.score);
         score2=findViewById(R.id.score2);
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+    }
+
     public void btn1(View btn) {
         if (btn.getId()== R.id.btn_1) {
             ShowScore(1);
