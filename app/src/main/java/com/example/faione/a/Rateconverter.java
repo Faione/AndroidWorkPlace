@@ -33,6 +33,7 @@ public class Rateconverter extends AppCompatActivity implements Runnable{
     EditText rmb;
     TextView showrlt ;
     Handler handler;
+    String TAG = "Rateconverter";
     private float dollar_rate = 6.7f;
     private float pound_rate = 8.774f;
     private float yen_rate = 0.06014f;
@@ -158,8 +159,19 @@ public class Rateconverter extends AppCompatActivity implements Runnable{
             openConfig();
         }else if(item.getItemId()==R.id.open_list){
             //打开列表
-            Intent list = new Intent(this,MyList2Activity.class);
+            Intent list = new Intent(this,RatelistActivity.class);
             startActivity(list);
+            //测试
+//            RateItem item1 = new RateItem("dollar","8.5");
+//            RateManager manager = new RateManager(this);
+//            manager.add(item1);
+//            manager.add(new RateItem("HK","1.5"));
+//            Log.i(TAG,"onOptionsItemSelected: 写入数据完毕");
+//            //查询数据
+//            List<RateItem> testList = manager.listAll();
+//            for(RateItem i : testList){
+//                Log.i(TAG,"onOptionsItemSelected: 取出数据[Id="+i.getId()+"]Name =" + i.getCurName() + "Rate =" + i.getCurRate());
+//            }
         }
         return super.onOptionsItemSelected(item);
     }
