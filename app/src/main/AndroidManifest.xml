@@ -16,19 +16,21 @@
             //android:screenOrientation="landscape"
         </activity>
         <activity android:name=".Rateconverter">
+        </activity>
+        <activity android:name=".Changerate" />
+        <activity android:name=".MyListActivity"></activity>
+        <activity android:name=".RatelistActivity" />
+        <activity android:name=".MyList2Activity" />
+        <activity
+            android:name=".RateCalActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".FrameActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Changerate" />
-        <activity android:name=".MyListActivity" >
-
-    </activity>
-        <activity android:name=".RatelistActivity" ></activity>
-        <activity android:name=".MyList2Activity" ></activity>
-        <activity android:name=".RateCalActivity" android:theme="@style/Base.Theme.AppCompat.Light.Dialog"></activity>
     </application>
 
 </manifest>

@@ -15,4 +15,7 @@
     <string name="rmb_hint">请输入人民币金额</string>
     <string name="btn_config">修改汇率</string>
     <string name="btn_save">保存</string>
+    <string name="rdo_home_label">首页</string>
+    <string name="rdo_func_label">功能</string>
+    <string name="rdo_setting_label">设置</string>
 </resources>

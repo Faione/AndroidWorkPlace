@@ -26,4 +26,7 @@
     <string name="lable_itemTitle">itemTitle</string>
     <string name="lable_itemDetail">itemDetail</string>
     <string name="app_name_RateConverter">RateConverter</string>
+    <string name="rdo_home_label">Home</string>
+    <string name="rdo_func_label">Func</string>
+    <string name="rdo_setting_label">Setting</string>
 </resources>
